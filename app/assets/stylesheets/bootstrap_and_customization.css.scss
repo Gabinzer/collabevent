@@ -1,8 +1,13 @@
-$body-bg: #ecf0f1;
-$navbar-default-bg: #27ae60;
-$navbar-default-brand-color: white;
-$brand-primary: #f39c12;
-$jumbotron-bg: #bdc3c7;
+@import url(http://fonts.googleapis.com/css?family=Dosis:400,700);
+
+$body-bg: 										#95a5a6;
+$font-family-sans-serif: 			'Dosis', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+$navbar-default-bg: 					#ecf0f1;
+$navbar-default-brand-color: 	red;
+$brand-primary: 							red;
+$jumbotron-bg: 								#ecf0f1;
+
+
 @import 'bootstrap';
 
 .center {
